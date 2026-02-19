@@ -1,0 +1,61 @@
+/* Reset default browser spacing */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 207, 207);
+}    
+
+/* Header */
+header {
+    background-color: rgb(233, 234, 243);
+    color: rgb(17, 18, 19)
+    padding: 20px
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: rgb(233, 229, 229);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(235, 232, 229)
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+     padding: 20px
+}
+
+/* Sections */
+section  {
+    background-color: rgb(241, 233, 233);
+    padding: 10px
+    margin-bottom: 10px
+    border-radius: 5px
+}
+
+/* Products */
+.product  {
+    border: 1px solid #141313;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer  {
+    background-color: #e5e9ec;
+    color: rgb(141, 66, 66);
+    text-align: center;
+    padding: 10px;
+}
